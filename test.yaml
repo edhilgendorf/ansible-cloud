@@ -1,0 +1,7 @@
+---
+# variables from dynamic inventory
+- name: variables from dynamic inventory
+  hosts: localhost
+  remote_user: ec2-user
+  collections:
+  - amazon.aws.aws_ec2
